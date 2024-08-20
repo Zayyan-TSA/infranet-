@@ -1,0 +1,119 @@
+/* for mobile and tablet */
+@media (max-width:360px) {
+
+  #price-tags {
+    width: 10vw;
+  }
+}
+
+@media (min-width:361px) and (max-width:1024px) {
+  body {
+    /* overflow: hidden; */
+  }
+
+  .heading {
+    position: static;
+    text-align: center;
+  }
+  
+  .container {
+    margin: 40px 7px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    padding: 0 40px 0 40px;
+  }
+
+  .plans {
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .gbps {
+    margin: 0 auto 10px auto;
+  }
+
+  h3 {
+    width: 170px;
+  }
+
+  .gbps img {
+    /* position: relative;
+     right: -10px; */
+  }
+
+  .speed {
+    margin: 0 6px;
+    display: initial;
+  }
+
+  .plan-price {
+    justify-content: center;
+    margin: 10px 0;
+    text-align: center;
+    position: relative;
+    /* flex-wrap: wrap; */
+  }
+
+  #price-tags {
+    width: 29.5vw;
+    gap: 0;
+    min-height: 170px;
+    margin: 0 -6px;
+    padding: 11px 5px 75px 5px;
+    text-align: center;
+
+    &:hover {
+      opacity: initial;
+    }
+  }
+
+  #price-tags div {
+    display: initial;
+    margin: 0 auto;
+  }
+
+  .payable-amount {
+    display: block;
+    font-size: 0.8rem;
+    text-align: center;
+    margin: 0 auto;
+  }
+
+  .payable-amount span {
+    justify-content: center;
+  }
+
+  #price-tags div img {
+    position: relative;
+    top: 3.6px;
+  }
+
+  .save {
+    padding: 2px 3px;
+    width: 95px;
+    margin: 15px auto;
+  }
+
+  .save img {
+    height: 20px;
+  }
+
+  .end {
+    position: relative;
+    bottom: -54px;
+    width: auto;
+  }
+
+  br {
+    display: block;
+  }
+}
+
+@media(min-width:1025px) {
+  .multiply {
+    margin: 0 5px;
+  }
+}
