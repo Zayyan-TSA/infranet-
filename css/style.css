@@ -33,7 +33,6 @@ body {
   font-family: 'Poppins', sans-serif;
   /* overflow: hidden; */
   overflow: scroll;
-  background-color: red;
 }
 
 body {
@@ -66,7 +65,7 @@ body {
 .container {
   padding: 20px 0 20px 20px;
   border-radius: 10px;
-  margin: 40px 50px;
+  margin: 40px 40px;
   background: linear-gradient(to left, #d8c75f, #5f5828);
 }
 
@@ -91,7 +90,7 @@ body {
 
 #price-tags {
   background-color: white;
-  min-width: 20vw;
+  min-width: 21vw;
   max-height: 50px;
   padding: 11px 11px 75px 11px;
   border-radius: 6px;
@@ -155,15 +154,14 @@ h3 {
   align-items: center;
   margin-left: auto;
   width: 100px;
+  justify-content: center;
 }
 
 .save img {
-  height: 18px;
+  height: 15px;
+  /* display: block; */
 }
 
-br {
-  display: none;
-}
 
 #price-tags div {
   display: flex;
