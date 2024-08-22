@@ -6,7 +6,7 @@
   box-sizing: border-box;
 }
 
-/* Hide scrollbar for Webkit browsers (Chrome, Safari) */
+
 ::-webkit-scrollbar {
   display: none;
 }
@@ -70,32 +70,28 @@ body {
   padding: 70px 0 20px 40px;
   border-radius: 10px;
   margin: 40px 40px;
-  background: linear-gradient(to left, #d8c75f, #5f5828);
+  background: #1D2B64;
+  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #F8CDDA, #1D2B64);
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #F8CDDA, #1D2B64);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
+
 
 .gbps {
   display: flex;
   align-items: center;
   justify-content: center;
-  flex-direction: column;
-
+  /* flex-direction: column; */
+  /* position: relative; */
 }
 
 .gbps img {
-  height: 110px;
-  /* width: 160px; */
-  object-fit: cover;
-  /* position: relative; */
+  height: 100px;
+  width: 200px;
   position: absolute;
-  top: -20px;
-  gap: 20px;
-  /* left: 20px; */
-  /* z-index: 1; */
-  /* bottom: 20px; */
-  /* left: -20px; */
-  /* display: none; */
-
-
+  /* top: 10px; */
 }
 
 .plan-price {
@@ -108,10 +104,8 @@ body {
 
 .plans {
   margin: 20px 0;
-  /* display: flex;
-  align-items: center; */
-  position: relative;
-  flex-direction: row;
+  display: flex;
+  align-items: center;
 }
 
 #price-tags {
@@ -170,8 +164,9 @@ h3 {
 }
 
 .save {
-  background: linear-gradient(to left, #d8c75f, #5f5828);
-  background-color: #F2CA15;
+  background: #DBE6F6;
+  background: -webkit-linear-gradient(to right, #C5796D, #DBE6F6);
+  background: linear-gradient(to right, #C5796D, #DBE6F6);
   padding: 4px 5px;
   border-radius: 12px;
   font-weight: 600;
@@ -185,7 +180,6 @@ h3 {
 
 .save img {
   height: 15px;
-  /* display: block; */
 }
 
 
@@ -201,22 +195,6 @@ img {
 
 #price-tags .img-1 {
   height: 22px;
-}
-
-.banner-images {
-  display: flex;
-  align-items: flex-start;
-  justify-content: flex-start;
-  /* position: absolute; */
-}
-
-.banner-images img {
-  height: 100px;
-  width: 210px;
-  z-index: 1;
-  top: -30px;
-  position: absolute;
-  /* bottom: 28px; */
 }
 
 /* yellow blue white black */
