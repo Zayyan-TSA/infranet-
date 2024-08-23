@@ -15,9 +15,12 @@
     position: static;
     text-align: center;
   }
+.parent{
+  margin: 0;
+}
 
   .container {
-    margin: 40px 7px;
+    margin: 0 7px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -100,6 +103,21 @@
     position: relative;
     bottom: -54px;
     width: auto;
+  }
+
+  .images {
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+    top: 280px;
+    z-index: 1;
+    margin: 0;
+    display: grid;
+    place-items: center;
+  }
+
+  .images img {
+    position: relative;
   }
 }
 
