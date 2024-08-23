@@ -7,20 +7,14 @@
 }
 
 @media (min-width:361px) and (max-width:1024px) {
-  body {
-    /* background-color: red; */
-  }
 
   .heading {
     position: static;
     text-align: center;
   }
-.parent{
-  margin: 0;
-}
 
   .container {
-    margin: 0 7px;
+    margin: 20px 7px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -32,27 +26,26 @@
     justify-content: center;
     flex-direction: column;
     text-align: center;
-    margin-bottom: 70px;
   }
 
   .gbps {
-    margin: 0 auto 10px auto;
+    margin: 0;
   }
 
-  h3 {
+  .gbps h3 {
     width: 170px;
+    justify-content: center;
+    margin: 0;
   }
 
   .speed {
     margin: 0 6px;
-    display: initial;
   }
 
   .plan-price {
     justify-content: center;
-    margin: 40px 0;
     text-align: center;
-    position: relative;
+    margin: 15px 0 0 0;
   }
 
   #price-tags {
@@ -69,8 +62,12 @@
   }
 
   #price-tags div {
-    display: initial;
+    display: block;
     margin: 0 auto;
+  }
+
+  #price-tags .save {
+    display: block;
   }
 
   .payable-amount {
@@ -93,9 +90,6 @@
     padding: 2px 3px;
     width: 95px;
     margin: 15px auto;
-  }
-
-  .save img {
     display: inline-block;
   }
 
@@ -105,24 +99,23 @@
     width: auto;
   }
 
-  .images {
-    flex-direction: column;
-    justify-content: center;
-    position: relative;
-    top: 280px;
-    z-index: 1;
-    margin: 0;
-    display: grid;
-    place-items: center;
+  .gbps .lg-hidden {
+    object-fit: contain;
+    width: 210px;
+    height: 140px;
   }
 
-  .images img {
-    position: relative;
+  .md-hidden {
+    display: none;
   }
 }
 
 @media(min-width:1025px) {
   .multiply {
     margin: 0 5px;
+  }
+
+  .lg-hidden {
+    display: none;
   }
 }
