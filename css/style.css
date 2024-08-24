@@ -21,6 +21,7 @@ body {
 }
 
 body {
+
   overflow: -moz-scrollbars-none;
 }
 
@@ -66,12 +67,12 @@ body {
 .plan-price {
   display: flex;
   align-items: center;
-  gap: 20px;
+  gap: 19px;
   margin-left: 8.5vw;
 }
 
 .plans {
-  margin: 0 0 40px 0;
+  margin: 0 0 20px 0;
   display: flex;
   align-items: center;
 }
@@ -83,7 +84,7 @@ body {
 #price-tags {
   background-color: white;
   width: 22vw;
-  height: 50px;
+  height: 60px;
   padding: 11px 11px 75px 11px;
   border-radius: 6px;
   box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
@@ -134,15 +135,21 @@ strong {
 }
 
 h3 {
-  width: 140px;
-  color: black;
+  width: 160px;
+  /* color: white; */
+  color: #FFCC00;
   display: flex;
   align-items: center;
   margin: 0;
+  font-size:1.4rem;
+}
+
+.speed {
+  color: #FFCC00;
 }
 
 .save {
-  background-color: #FFCC01;
+  background-color: #FFCC00;
   color: black;
   padding: 4px 5px;
   border-radius: 12px;
