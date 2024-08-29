@@ -1,12 +1,106 @@
 /* for mobile and tablet */
-@media (max-width:360px) {
+@media (max-width:367px) {
+
+  .container {
+    margin: 20px 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    padding: 0 40px 0 40px;
+  }
+
+  .plans {
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+
+  }
+
+  .gbps {
+    margin: 0;
+  }
+
+  .gbps h3 {
+    width: 170px;
+    justify-content: center;
+    margin: 0;
+  }
+
+  .speed {
+    margin: 0 6px;
+  }
+
+  .plan-price {
+    justify-content: center;
+    text-align: center;
+    margin: 15px 0 0 0;
+    flex-direction: column;
+  }
 
   #price-tags {
-    width: 10vw;
+    width: 70vw;
+    gap: 0;
+    min-height: 170px;
+    margin: 0 -5px;
+    padding: 11px 5px 75px 5px;
+    text-align: center;
+
+    &:hover {
+      opacity: initial;
+    }
+  }
+
+  #price-tags div {
+    display: block;
+    margin: 0 auto;
+  }
+
+  #price-tags .save {
+    display: block;
+  }
+
+  .payable-amount {
+    display: block;
+    font-size: 0.8rem;
+    text-align: center;
+    margin: 0 auto;
+  }
+
+  .payable-amount span {
+    justify-content: center;
+  }
+
+  #price-tags div img {
+    position: relative;
+    top: 3.6px;
+  }
+
+  .save {
+    padding: 2px 3px;
+    width: 95px;
+    margin: 15px auto;
+    display: inline-block;
+  }
+
+  .end {
+    position: relative;
+    bottom: -54px;
+    width: auto;
+  }
+
+  .gbps .lg-hidden {
+    object-fit: contain;
+    width: 210px;
+    height: 140px;
+  }
+
+  .md-hidden {
+    display: none;
   }
 }
 
-@media (min-width:361px) and (max-width:1024px) {
+@media (min-width:368px) and (max-width:1024px) {
 
   .heading {
     position: static;
