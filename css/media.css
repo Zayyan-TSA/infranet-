@@ -14,7 +14,6 @@
     justify-content: center;
     flex-direction: column;
     text-align: center;
-
   }
 
   .gbps {
@@ -29,6 +28,7 @@
 
   .speed {
     margin: 0 6px;
+    position: initial;
   }
 
   .plan-price {
@@ -134,6 +134,7 @@
 
   .speed {
     margin: 0 6px;
+    position: initial;
   }
 
   .plan-price {
