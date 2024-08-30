@@ -98,9 +98,11 @@ body {
   display: block;
   font-size: medium;
   font-weight: normal;
-  text-align: center;
+  /* text-align: center; */
   position: relative;
   top: -10px;
+  color: #FFCC00;
+  left: 40px;
 }
 
 span {
@@ -140,11 +142,7 @@ h3 {
   display: flex;
   align-items: center;
   margin: 0;
-  font-size: 1.4rem;
-}
-
-.speed {
-  color: #FFCC00;
+  /* font-size: 1.4rem; */
 }
 
 .save {
